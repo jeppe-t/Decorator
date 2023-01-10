@@ -1,6 +1,7 @@
 # Decorator.
 
-This is a simple decorator
+This is a simple decorator.<br /> 
+Description and explanation of a decorator is included in the script.
 
 ## Steps to Setup
 
