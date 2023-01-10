@@ -1,46 +1,43 @@
-# Decorator.
+# Tour-de-france-web-app
 
-This is a simple decorator
+This project is my frontend for my exam project 2022. It is build with the use of HTML, CSS, Bootstrap and JavaScript.
 
-A decorator is something we use to add new functionality to existing code without modifying the original code and
-thereby the name decorator. We just decorate the function. In Python, we work with first class functions,
-which gives us the opportunity to do the implementation as shown below.
-
-This is a basic example of a decorator.
-
-I have the existing function siesta() and I made a decorator timer() the can measure the execution time for my function.
-
+## Installing
 
 ## Steps to Setup
 
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/jeppe-t/Decorator.git
+git clone https://github.com/Tour-de-france-2022-eksamen/Tour-de-france-web-app.git
 ```
 
-**2. Import libraries**
+**2. Clone the backend application**
+
 ```bash
-In ide terminal run:
-pip3 install colorama
+git clone https://github.com/Tour-de-france-2022-eksamen/Tour-de-france-rest-api.git
 ```
 
-**3. Run the script**
+**3. Run the backend application**
 
 ```bash
 Run/compile app in your local IDE
 
 or
 
-In terminal: 
-Go to the folder, where the script is located and run: 
-python decorator.py
+mvn spring-boot:run
 ```
-The app will start running.
 
+**4. Access this application** 
+
+```bash
+Open your browser and access this web-app from http://localhost:8080 or directly from the HTML files in the repository
+```
   
+
 ## Contributors
 
-This is a solo-project developed by:
+This is a solo-project for my exam build and developed by:
 
 * [@jeppe-t](https://github.com/jeppe-t) 👊🏻👨🏻‍💻
+
