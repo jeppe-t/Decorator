@@ -6,7 +6,7 @@ A decorator is something we use to add new functionality to existing code withou
 thereby the name decorator. We just decorate the function. In Python, we work with first class functions,
 which gives us the opportunity to do the implementation as shown below.
 
-This is a basic example of a generator.
+This is a basic example of a decorator.
 
 I have the existing function siesta() and I made a decorator timer() the can measure the execution time for my function.
 
