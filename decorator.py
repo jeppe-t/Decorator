@@ -4,7 +4,7 @@
 
 A decorator is something we use to add new functionality to existing code without modifying the original code and
 thereby the name decorator. We just decorate the function. In Python, we work with first class functions,
-which gives us the opportunitie to do the implementation as shown below.
+which gives us the opportunity to do the implementation as shown below.
 
 This is a basic example of a generator.
 
