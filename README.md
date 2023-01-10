@@ -1,70 +1,36 @@
-# Tour de France 2022 Rest-API.
+# Decorator.
 
-This project is my backend for my exam project 2022. It is a full-stack application build in Java, with the Spring framework and a MYSQL database.
-
-There is Postman Script included for testing CRUD in the docs/postman folder.
+This is a simple decorator
 
 ## Steps to Setup
 
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/Tour-de-france-2022-eksamen/Tour-de-france-rest-api.git
+git clone https://github.com/jeppe-t/Decorator.git
 ```
 
-**2. Create Mysql database**
+**2. Import libraries**
 ```bash
-create database tourdefrance2022
+In ide terminal run: pip3 install colorama
 ```
 
-**3. Change mysql username and password as per your installation**
-
-+ open `src/main/resources/application.properties`
-+ change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
-
-**4. Run the Rest-API using maven**
+**3. Run the script**
 
 ```bash
 Run/compile app in your local IDE
 
 or
 
-mvn spring-boot:run
+In terminal: 
+Go to the folder, where the script is located and run: 
+python decorator.py
 ```
-The app will start running at <http://localhost:8080>
-
-## Explore Rest APIs
-  
-## Rest-API endpoints
-  The app defines following CRUD APIs.
-
-### Teams
-
-
-
-| Method | Url                                 | Description                    | Sample Valid Request Body    |
-|--------|-------------------------------------|--------------------------------|------------------------------|
-| GET    | /teams	                             | Read all teams                 |                              |
-| GET    | /teams/{id}	                       | Read team by id                |                              |
-
-
-
-### Riders
-
-
-| Method | Url                                 | Description                    | Sample Valid Request Body    |
-|--------|-------------------------------------|--------------------------------|------------------------------|
-| GET    | /riders                             | Read all riders                |                              |
-| GET    | /riders/orderbytime                 | Read all riders order by time  |                              |
-| GET    | /riders/{teamid}/riders             | Read all riders by team        |                              |
-| GET    | /riders/{Id}                        | Read rider by id               |                              |
-| POST   | /ridersriders                       | Create rider                   |                              |
-| PUT    | /riders{id}                         | Update rider by id             |                              |
-| DELETE | /riders{Id}                         | Delete rider by id             |                              |
+The app will start running.
 
   
 ## Contributors
 
-This is a solo-project for my exam build and developed by:
+This is a solo-project developed by:
 
 * [@jeppe-t](https://github.com/jeppe-t) 👊🏻👨🏻‍💻
